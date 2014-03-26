@@ -8,10 +8,7 @@
     y: 220
   };
 
-  boundRadius = new View({
-    width: 400,
-    height: 1000
-  });
+  boundRadius = 500;
 
   view = new View({
     x: position.x,
@@ -19,11 +16,6 @@
     width: 60,
     height: 60,
   });
-
-  view.screenFrame = {
-    width: 1136,
-    height: 640
-  }
 
   view.style = {
     borderRadius: "50%",
@@ -56,11 +48,11 @@
   });
 
   boundsView = new View({
-    width: 500,
-    height: 1026
+    width: 772,
+    height: 1598
   });
 
-  boundsView.style.background = "url('http://f.cl.ly/items/3D0W1e0h3B3L3K1H1b0E/facebookpaper.png') no-repeat";
+  boundsView.style.background = "url('assets/iphone.png') no-repeat";
 
   boundsView.placeBehind(view);
 
