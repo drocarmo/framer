@@ -4,17 +4,20 @@
   var boundRadius, boundsView, draggable, position, view;
 
   position = {
-    x: 590,
-    y: 350
+    x: 380,
+    y: 220
   };
 
-  boundRadius = 500;
+  boundRadius = new View({
+    width: 400,
+    height: 1000
+  });
 
   view = new View({
     x: position.x,
     y: position.y,
-    width: 100,
-    height: 100,
+    width: 60,
+    height: 60,
   });
 
   view.screenFrame = {
@@ -24,7 +27,7 @@
 
   view.style = {
     borderRadius: "50%",
-    border: "4px solid #fff",
+    border: "3px solid #fff",
     boxShadow: "0 1px 10px rgba(0, 0, 0, 0.7)",
     background: "url('http://learn.shayhowe.com/assets/layout/home/shay.jpg') no-repeat",
     backgroundSize: "cover"
@@ -53,11 +56,11 @@
   });
 
   boundsView = new View({
-    width: 772,
-    height: 1598
+    width: 500,
+    height: 1026
   });
 
-  boundsView.style.background = "url('http://f.cl.ly/items/230r2D2K3h2M0F0q1o3E/paper.png') top";
+  boundsView.style.background = "url('http://f.cl.ly/items/3D0W1e0h3B3L3K1H1b0E/facebookpaper.png') no-repeat";
 
   boundsView.placeBehind(view);
 
