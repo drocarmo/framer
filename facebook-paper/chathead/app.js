@@ -30,8 +30,8 @@
   view.on(Events.DragMove, function() {
     var distance;
     distance = {
-      x: Math.abs(view.x - position.x),
-      y: Math.abs(view.y - position.y)
+      x: Math.abs(view.x - position.x) / boundRadius,
+      y: Math.abs(view.y - position.y) / boundRadius
     };
     draggable.speed.x = 1 - Math.min(distance.x, boundRadius) / boundRadius;
     return draggable.speed.y = 1 - Math.min(distance.y, boundRadius) / boundRadius;
