@@ -34,9 +34,9 @@ view.menu = new View({width: 80, height: 80});
 
 // menu properties
 view.menu.style = menuStyle;
-view.menu.clip  = false;
-view.menu.x     = 21;
-view.menu.y     = 1014;
+view.menu.clip = false;
+view.menu.x = 21;
+view.menu.y = 1014;
 
 // menu item views
 view.menuItem1 = new View({

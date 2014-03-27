@@ -1,7 +1,8 @@
-Facebook Paper Chathead
+Path
 =======================
 
-[Play with it on Codepen](http://codepen.io/drocarmo/full/uylip)!
+[Play with it on Codepen](http://codepen.io/drocarmo/full/bLlew)!
 
-Attempting to recreate the Facebook's Paper iOS app chathead animation:
-![Paper](assets/live.gif)
+Playing/recreating Path's iOS app animation for adding content,
+lots of springs ya feel:
+![Path](assets/live.gif)
