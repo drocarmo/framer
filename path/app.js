@@ -11,7 +11,6 @@ menuStyle = {
   borderColor: "#fff",
   borderStyle: "solid",
   borderRadius: "50%",
-  boxShadow: "0 1px 5px rgba(0, 0, 0, .5)",
   cursor: "pointer"
 }
 
