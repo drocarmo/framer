@@ -1,5 +1,5 @@
 Framer
-==========
+=======================
 
 Hello there!
 This is a repository where I save all of my quick/iterative prototypes built with Framer inside [Framer Studio](http://framerjs.com/download/). Hope you find some of the code here useful for your experimentations.
