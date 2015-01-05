@@ -3,14 +3,15 @@
 layerA = new Layer({
   x: 0,
   y: 0,
-  width: 750,
-  height: 1334,
-  backgroundColor: "black",
+  width: 312,
+  height: 390,
+  backgroundColor: "blue",
 })
 
 layerA.html = "Hello World!"
 
 layerA.style = {
+    "border-radius": "2px",
     "padding": "20px",
     "font-size": "40px"
 }

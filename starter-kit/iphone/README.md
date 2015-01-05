@@ -1,7 +1,5 @@
-iPhone Starter-Kit
+iPhone 6 Starter-Kit
 =======================
 
-This will get you up and running with an iPhone size view to start prototyping in Framer. Really vanilla-y, ya dig?
-
-Here's a snapshot of what you will see when opening it in your browser:
+This will get you up and running to start prototyping in Framer for the iPhone 6.Here's a screenshot of what you should see when you drop the code inside Framer Studio:
 ![iPhone](assets/iphone-screenshot.png)

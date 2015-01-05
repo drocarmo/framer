@@ -3,16 +3,16 @@
 layerA = new Layer({
   x: 0,
   y: 0,
-  width: 750,
-  height: 1334,
+  width: 1080,
+  height: 1920,
   backgroundColor: "black",
 })
 
 layerA.html = "Hello World!"
 
 layerA.style = {
-    "padding": "20px",
-    "font-size": "40px"
+    "padding": "40px",
+    "font-size": "60px"
 }
 
 # layerA.ignoreEvents = false
